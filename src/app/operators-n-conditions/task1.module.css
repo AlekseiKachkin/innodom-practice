@@ -1,0 +1,9 @@
+.task1-container{  
+  justify-content: center;
+  width: 1400px;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}

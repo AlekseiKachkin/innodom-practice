@@ -1,0 +1,13 @@
+.isEven-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.p {
+  text-align: center;
+  margin: 0;
+}
