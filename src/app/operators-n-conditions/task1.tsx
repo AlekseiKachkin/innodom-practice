@@ -6,7 +6,7 @@ import FrontBack from "./front-back/front-back";
 import Greetings from "./greetings/greetings";
 import Klava from "./klava/klava";
 
-export default function OperatorsContitions() {
+export default function OperatorsConditions() {
   
   return (
   <div className={styles['task1-container']}>

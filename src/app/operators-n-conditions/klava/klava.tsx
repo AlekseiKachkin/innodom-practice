@@ -11,7 +11,7 @@ const unknownAnswer = 'Я еще не знаю таких слов';
 
 export default function Klava () {
   const [value, setValue] = useState('');
-  const [dialog, setDialog] = useState('');
+  const [dialog, setDialog] = useState(' ');
   function sendMessage (msg: string) { 
     let answer = questions.get(msg);
     if (answer) {

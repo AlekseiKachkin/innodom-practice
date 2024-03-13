@@ -4,7 +4,7 @@ import styles from './front-back.module.css'
 
 export default function FrontBack () {
   const [value, setValue] = useState('');
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState(' ');
   function checkLanguage (lang: string) { 
     switch (lang.toLowerCase()){
       case 'js': 

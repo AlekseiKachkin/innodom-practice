@@ -4,7 +4,7 @@ import styles from './greetings.module.css'
 
 export default function Greetings () {
   const [value, setValue] = useState('');
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState(' ');
   function checkLanguage (lang: string) { 
     switch (lang.toLowerCase()){
       case 'russian': 

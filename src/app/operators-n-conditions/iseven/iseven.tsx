@@ -4,9 +4,12 @@ import styles from './iseven.module.css'
 
 export default function IsEven() {
   const [number, setNumber] = useState('');
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState(' ');
   
   function checkNumber (num: string) {
+    if (num.length === 0) {
+      return;
+    }
     switch (true) {
       case isNaN(+num): 
         setResult('Введено не число');
